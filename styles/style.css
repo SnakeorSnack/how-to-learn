@@ -196,7 +196,7 @@
   margin-top: 60px;
 }
 
-.cell-title {
+.table__heading {
   text-align: left;
   margin: 0 auto 0;
   padding: 0;
@@ -205,7 +205,7 @@
   font-weight: 600;
 }
 
-.cell-text {
+.table__text {
   text-align: left;
   margin: 20px auto 0;
   padding: 0;
@@ -301,11 +301,6 @@ color: #2f80ed;
   z-index: 1;
 }
 
-.cell-text_theme_dark {
-  text-align: left;
-  margin: 20px auto 0;
-  z-index: 1;
-}
 
 .kaufman__triangle-pic {
   position: absolute;

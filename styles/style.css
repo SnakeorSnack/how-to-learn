@@ -320,12 +320,13 @@ color: #2f80ed;
   background-color: #1f1f1f;
   display: flex;
   color: white;
+  min-height: 350px;
 }
 
 .footer__columns {
   margin: 60px auto 40px;
   width: 90%;
-  min-height: 350px;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;

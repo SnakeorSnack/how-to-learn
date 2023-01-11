@@ -319,6 +319,7 @@ color: #2f80ed;
   width: 100%;
   background-color: #1f1f1f;
   display: flex;
+  color: white;
 }
 
 .footer__columns {
@@ -330,7 +331,7 @@ color: #2f80ed;
   justify-content: space-between;
 }
 
-.footer__column_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -350,12 +351,12 @@ color: #2f80ed;
   font-weight: normal;
 }
 
-.footer__column_info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
@@ -386,8 +387,4 @@ color: #2f80ed;
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
-}
-
-.footer__text_theme_dark {
-  color: white;
 }

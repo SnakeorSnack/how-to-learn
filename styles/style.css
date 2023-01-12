@@ -5,6 +5,7 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
+  padding: 0;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #1f1f1f;
@@ -20,6 +21,7 @@
   min-height: 600px;
   max-height: 756px;
   margin: 0;
+  padding: 0;
   background-color: #f2f2f2;
 }
 
@@ -27,6 +29,7 @@
   width: 228px;
   height: 32px;
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -89,6 +92,7 @@
   flex-direction: column;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 /* Description section */
@@ -98,6 +102,7 @@
   width: 100%;
   justify-content: center;
   margin: 100px 0 0;
+  padding: 0;
 }
 
 .two-columns {
@@ -158,6 +163,7 @@
 .digits {
   display: flex;
   margin: 100px auto 100px;
+  padding: 0;
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -321,10 +327,12 @@ color: #2f80ed;
   display: flex;
   color: white;
   min-height: 350px;
+  margin: 0 auto 0;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
-  margin: 60px auto 40px;
+  margin: 0 auto 0;
   width: 90%;
   display: flex;
   flex-direction: row;

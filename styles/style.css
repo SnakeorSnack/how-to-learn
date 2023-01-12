@@ -157,7 +157,7 @@
 
 .digits {
   display: flex;
-  margin: 0 auto 0;
+  margin: 100px auto 100px;
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -169,7 +169,7 @@
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  margin: 100px auto 20px;
+  margin: 0 auto 20px;
   padding: 0;
 }
 
@@ -188,7 +188,7 @@
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
-  margin: 0 auto 100px;
+  margin: 0 auto 0;
   padding: 0;
   list-style: none;
 }
@@ -278,7 +278,7 @@ color: #2f80ed;
   width: 100%;
   background-color: #1f1f1f;
   margin: 0 auto 0;
-  padding: 0;
+  padding: 90px 0 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,17 +288,12 @@ color: #2f80ed;
 
 .section-title_theme_dark {
   color: white;
-  margin: 90px auto 20px;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
   z-index: 1;
-}
-
-.table_theme_dark {
-  margin-bottom: 90px;
 }
 
 .table__cell_theme_dark {

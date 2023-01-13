@@ -284,6 +284,7 @@
 /* Kaufman section */
 
 .kaufman {
+  box-sizing: border-box;
   width: 100%;
   background-color: #1f1f1f;
   margin: 0 auto 0;
@@ -314,6 +315,8 @@
 }
 
 .kaufman__triangle-pic {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   position: absolute;
   top: 0;
   right: -210px;

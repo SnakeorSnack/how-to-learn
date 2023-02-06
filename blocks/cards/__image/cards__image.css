@@ -1,0 +1,7 @@
+.cards__image {
+    max-height: 160px;
+    max-width: 160px;
+    border-radius: 50%;
+    margin: 0 40px 0;
+    padding: 0;
+}

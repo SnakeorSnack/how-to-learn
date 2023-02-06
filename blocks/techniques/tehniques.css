@@ -1,7 +1,7 @@
 .tehniques {
-    display: flex;
-    width: 80%;
-    margin: 100px auto 0;
-    flex-direction: column;
-    justify-content: center;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 0;
+  justify-content: center;
 }
